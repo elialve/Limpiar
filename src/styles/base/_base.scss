@@ -1,0 +1,31 @@
+// //rem
+html {
+ margin: 0;
+ //
+}
+body {
+    // font-family: Helvetica, Ariel, sans-serif;
+    // font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    // font-family: 'Open Sans', sans-serif;
+
+}
+//
+// button {
+//   cursor: pointer;
+// }
+//
+// button:disabled {
+//   cursor: default;
+// }
+//
+// .is-active {
+//   font-weight: bold;
+// }
+.content::-webkit-scrollbar {
+  /* solo oculta su visualizacion */
+  display: none;
+}
+h1{
+  margin: 0px;
+}

@@ -1,0 +1,85 @@
+// .titulo {
+//   display: flex;
+//   align-items: center;
+//
+// }
+.tituloCentral {
+  color: #fff5f9;
+  font-size: 60px;
+  font-weight: 700;
+  margin-left: 1.5%;
+  font-style: oblique;
+  padding-top: 9%;
+
+}
+
+.fondo {
+  // background-image: url(/images/fondo2.jpg);
+}
+//
+.imagenCentral{
+    -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+
+}
+
+.tituloMed {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff5f9;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 10px;
+  font-style: oblique;
+
+}
+.container--fondo {
+  padding-top: 11%;
+  padding-bottom: 5%;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  min-height: 650px;
+  max-height: 650px;
+}
+
+.cambioTit{
+  transition: all 700ms;
+}
+.ReactChart{
+  width: 500px !important;
+  height: 300px;
+}
+@media (min-width: 1450px) {
+  .container--fondo {
+    padding-top: 9%;
+    padding-bottom: 9%;
+  }
+
+}
+@media (max-width: 826px) {
+  .imagenCentral{
+    display: none;
+  }
+  .container--fondo {
+    padding-top: 11.5%;
+  }
+}
+@media (max-width: 550px) {
+  .imagenCentral{
+    display: none;
+  }
+  .container--fondo {
+    padding-top: 20%;
+    padding-right: 4%;
+    padding-bottom: 1%;
+    min-height: 480px;
+  }
+  .tituloMed {
+    font-size: 40px;
+  }
+  .tituloCentral {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,22 @@
+
+.galeria{
+  background: linear-gradient(90deg, #14A697 0%, #F2C12E 50%, #F25252 100%);;
+  margin-top: 5px;
+  padding: 50px;
+  max-height: 1000px;
+}
+.image-gallery-slides {
+  max-height: 813px;
+}
+@media (max-width: 550px) {
+  .galeria{
+    padding: 10px;
+  }
+}
+
+.fullscreen .image-gallery-slides {
+  max-height: 1000px;
+}
+.fullscreen .image-gallery-slides img{
+  max-height: 1000px;
+}

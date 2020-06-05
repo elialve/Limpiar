@@ -1,0 +1,20 @@
+
+.portaPage{
+  margin-top: 5px;
+  background: #1b1e34;
+  padding: 50px;
+  color:white;
+}
+@media (max-width: 550px) {
+  .portaPage{
+    padding: 10px;
+  }
+
+}
+
+.itemPorta{
+  padding: 5px;
+}
+.img-porta{
+  min-height: 250px;
+}

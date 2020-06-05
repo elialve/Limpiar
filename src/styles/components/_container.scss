@@ -1,0 +1,57 @@
+// .container{
+//   max-width: 1170px;
+//   margin: 0 auto;
+// }
+
+// .container-fluid {
+//   margin-top: -20px !important;
+// }
+// .container-fluid {
+//   height: 100%;
+//   width: 100%;
+// }
+// .container-fluid--lleno {
+//
+//   // // min-height: 820px;
+//   height: 100%;
+//   width: 100%;
+//   padding: 9%;
+//   display: flex;
+//   justify-content: center;
+//   // // transition: all 700ms;
+//   background-image: url('/images/cool-background.png');
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   color: white;
+//   font-style:italic;
+// }
+// .container-fluid3 {
+//   min-height: 820px;
+//   display: none;
+// }
+// .containerBloque{
+//   padding: 20px !important;
+// }
+
+
+// .containerTodo--caida {
+//   max-height: 0px;
+//   background-color: white;
+// }
+.background--caida {
+  display: none;
+}
+// .containerTodo {
+//   max-height: 1850px;
+//   // background-color: none;
+// }
+
+.background{
+  visibility: hidden;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}

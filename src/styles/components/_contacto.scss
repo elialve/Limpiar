@@ -1,0 +1,36 @@
+.contacto__container {
+  padding: 0;
+  margin: 1% auto;
+  opacity: 0.9;
+
+}
+.contacto{
+  background: rgb(4,40,110);
+  background:linear-gradient(90deg, #14A697 0%, #F29D35 50%, #F25252 100%);
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  margin-top: 5px;
+  padding: 50px;
+}
+
+.contacto__title{
+  padding-bottom: 30px;
+}
+
+.contacto__texarea {
+  height: 145px;
+}
+.contacto__boton{
+  width: 100%;
+  height: 50px;
+}
+.img-contact{
+  margin: 0px;
+}
+@media (max-width: 550px) {
+  .contacto{
+    padding: 0px;
+  }
+
+}

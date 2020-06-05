@@ -1,0 +1,22 @@
+.row{
+  margin-top: 0px !important;
+}
+
+.caidaFondo{
+  width: 500px;
+  height: 500px;
+}
+.particulas{
+  visibility: hidden;
+}
+
+.particulas--mostrar{
+  visibility: visible;
+}
+#prin{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: auto;
+  padding-top: 15%;
+}
