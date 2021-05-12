@@ -28,7 +28,7 @@
     "live-server": "^1.2.0",
     "mini-css-extract-plugin": "^0.4.2",
     "node-sass": "^4.9.3",
-    "nodemailer": "^4.6.8",
+    "nodemailer": "^6.4.16",
     "normalize.css": "^8.0.0",
     "react": "^16.4.2",
     "react-animated-css": "^1.0.4",
