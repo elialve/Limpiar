@@ -2898,7 +2898,7 @@ etag@~1.8.0, etag@~1.8.1:
 
 event-stream@latest:
   version "3.3.4"
-  resolved "http://registry.npmjs.org/event-stream/-/event-stream-3.3.4.tgz#4ab4c9a0f5a54db9338b4c34d86bfce8f4b35571"
+  resolved "https://registry.npmjs.org/event-stream/-/event-stream-3.3.4.tgz#4ab4c9a0f5a54db9338b4c34d86bfce8f4b35571"
   integrity sha1-SrTJoPWlTbkzi0w02Gv86PSzVXE=
   dependencies:
     duplexer "~0.1.1"
@@ -5122,10 +5122,10 @@ node-sass@^4.9.3:
     stdout-stream "^1.4.0"
     "true-case-path" "^1.0.2"
 
-nodemailer@^4.6.8:
-  version "4.6.8"
-  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-4.6.8.tgz#f82fb407828bf2e76d92acc34b823d83e774f89c"
-  integrity sha512-A3s7EM/426OBIZbLHXq2KkgvmKbn2Xga4m4G+ZUA4IaZvG8PcZXrFh+2E4VaS2o+emhuUVRnzKN2YmpkXQ9qwA==
+nodemailer@^6.4.16:
+  version "6.4.16"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.4.16.tgz#5cb6391b1d79ab7eff32d6f9f48366b5a7117293"
+  integrity sha512-68K0LgZ6hmZ7PVmwL78gzNdjpj5viqBdFqKrTtr9bZbJYj6BRj5W6WGkxXrEnUl3Co3CBXi3CZBUlpV/foGnOQ==
 
 "nopt@2 || 3":
   version "3.0.6"
